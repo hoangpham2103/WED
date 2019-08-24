@@ -1,0 +1,111 @@
+body{
+        font-family: arial;
+        color: white;
+      }
+
+      .header{
+        background-image: url("../css-task/images/bg.jpg") ;
+        height: 1080px;
+        text-align: center;
+        text-transform: uppercase;
+        background-size: 100% 115%;
+
+
+
+      }
+
+      .header .container {
+        padding: 30px 30px 80px 80px;
+      }
+
+     #h1{
+
+        font-weight: 600;
+        font-size: 130px;
+        font-size-adjust: 0.8;
+
+      
+      }
+
+      #p1{
+
+        font-size: 20px;
+        letter-spacing: 8px;
+      }
+      
+      .nav .container{
+
+        overflow: hidden;
+        background-color:black;
+      }
+
+      .nav .container a{
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 50px;
+        text-decoration: none;
+      }
+      .nav .container a:hover{
+        background-color:blue;
+        color:white;
+      }
+
+      .jumbotron .container{
+        position: relative;
+        background-color: black;
+
+      }
+      
+      .jumbotron .container .text-block{
+        position: absolute;
+        bottom: 660px;
+        right:120px;
+        padding-left: 20px;
+        padding-right:20px;
+        direction: rtl;
+
+      }
+
+      .jumbotron .container .text-block .btn{
+        display: block;
+        color: white;
+        background-color: blue;
+        text-align: center;
+        text-decoration: none;
+        padding: 14px 30px;
+
+      }
+
+      .footer .container{
+        overflow: hidden;
+        background-color:black;
+        color:white;
+        display: block;
+        padding-left: 160px;
+        padding-top:14px;
+        padding-bottom:14px;
+
+
+      }
+
+      .main .container{
+        position: relative;
+        display: block;
+        padding: 100px;
+        border: 1px solid black;
+      }
+
+      .main .container .text{
+        position: absolute;
+        font-size: 18px;
+        color: black;
+        display: block;
+        top:50px;
+        right: 300px;
+        
+      }
+
+
+      

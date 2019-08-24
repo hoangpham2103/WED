@@ -1,0 +1,1 @@
+"# WED"  initgit add README.mdgit commit -m "first commit"git remote add origin https://github.com/hoangph1302/WED.gitgit push -u origin master
